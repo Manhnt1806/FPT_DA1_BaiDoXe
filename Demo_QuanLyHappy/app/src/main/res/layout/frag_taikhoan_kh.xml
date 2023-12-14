@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#F6FAFD">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_taiKhoanKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="6dp">
+        <TextView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="  Tài khoản"
+            android:gravity="start|center"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_taikhoan"
+            android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_dangKyVeGui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="6dp">
+        <TextView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="  Đăng ký vé gửi"
+            android:gravity="start|center"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_xe"
+            android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_sdtKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="6dp">
+    <TextView
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="  Thay đổi số điện thoại"
+        android:gravity="start|center"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/ic_thaysdt"
+        android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_doiMkKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="6dp">
+    <TextView
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="  Thay đổi mật khẩu"
+        android:gravity="start|center"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/ic_thaypass"
+        android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_hoTroKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="6dp">
+    <TextView
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="  Trung tâm hỗ trợ"
+        android:gravity="start|center"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/ic_hotro"
+        android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_LogOutKH"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="@color/blue2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" LOG OUT"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_logout"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
